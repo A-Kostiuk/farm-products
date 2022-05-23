@@ -1,0 +1,22 @@
+export const defaultTheme = {
+  colors: {
+    customBlack: '#333333',
+    customWhite: '#F6F6F6',
+    basicWhite: '#FFFFFF',
+    colorForButton: '#FC9B27',
+    colorForBackgroundCheckbox: '#FC9B27',
+    colorForButtonPressed: '#FC7427',
+    colorForBackgroundFeatureGood: '#E1EDCE',
+    colorForBackgroundFeatureBad: '#F8DDD7',
+    colorForBackgroundFarmProducts: '#88AA4D',
+    colorForBackgroundShopProducts: '#F75531',
+    colorForBackgroundAbout: '#D8ECFE',
+  },
+  pageWidth: '1280px',
+  pagePadding: '90px',
+  fontFamily: '"Inter", "Arial", sans-serif',
+  fontSizeDefault: '18px',
+  lineHeigthDefault: '150%',
+  headerHeight: '80px',
+  footerHeight: '80px',
+};
