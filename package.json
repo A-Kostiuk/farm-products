@@ -5,6 +5,7 @@
   "dependencies": {
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
+    "react-router-dom": "^6.3.0",
     "styled-components": "^5.3.5",
     "swiper": "^8.1.5"
   },
@@ -12,7 +13,7 @@
     "build": "webpack --mode production",
     "start": "webpack serve --mode development",
     "eslint": "eslint --ext .jsx --ext .js ./source/",
-    "csslint": "stylelint './source/**/*.(js|jsx)'"
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -56,6 +57,7 @@
     "eslint-config-htmlacademy": "4.0.2",
     "eslint-plugin-react": "7.24.0",
     "file-loader": "6.2.0",
+    "gh-pages": "^4.0.0",
     "html-webpack-plugin": "5.3.2",
     "style-loader": "3.2.1",
     "stylelint": "13.13.1",
@@ -65,5 +67,6 @@
     "webpack": "5.70.0",
     "webpack-cli": "4.9.0",
     "webpack-dev-server": "4.7.0"
-  }
+  },
+  "homepage": "https://scroll253.github.io/farm-products/"
 }

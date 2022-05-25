@@ -4,8 +4,8 @@ import Title from '../../ui/title/title';
 
 export const FeaturesSection = styled.section`
   max-width: ${(props) => props.theme.pageWidth};
-  margin: 0 auto 100px;
-  padding: 0 ${(props) => props.theme.pagePadding};
+  margin: 0 auto;
+  padding: 100px ${(props) => props.theme.pagePadding};
   display: flex;
   flex-direction: column;
   align-items: center;

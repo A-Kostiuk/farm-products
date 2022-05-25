@@ -16,7 +16,11 @@ export const SwiperStyled = styled(Swiper)`
 `;
 
 export const Main = styled.main`
+  position: absolute;
+  top: ${(props) => props.theme.headerHeight};
+  bottom: ${(props) => props.theme.footerHeight};
   background-color: ${(props) => props.theme.colors.customWhite};
+  width: 100%;
 `;
 
 export const StyledOrder = styled.form`
@@ -28,10 +32,6 @@ export const StyledOrder = styled.form`
   display: grid;
   grid-template-columns: 355px 1fr;
   gap: 20px;
-  max-height: calc(
-    100vh - ${(props) => props.theme.headerHeight} -
-      ${(props) => props.theme.footerHeight}
-  );
 `;
 
 export const LeftColumn = styled.div`

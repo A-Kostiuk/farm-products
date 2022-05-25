@@ -4,7 +4,6 @@ import FarmerLogo from './../../../assets/farmer.svg';
 export const AboutSection = styled.section`
   background-color: ${(props) => props.theme.colors.colorForBackgroundAbout};
   padding: 0;
-  margin-bottom: 100px;
 `;
 
 export const ContentWrapper = styled.div`

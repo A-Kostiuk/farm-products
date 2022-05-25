@@ -11,13 +11,6 @@ html {
     padding: 0;
   }
 
-  #root {
-    display: grid;
-    grid-template-rows: min-content 1fr min-content;
-    align-content: start;
-    min-height: 100vh;
-  }
-
   body {
     position: relative;
     min-height: 100%;

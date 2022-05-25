@@ -1,4 +1,5 @@
 import React from 'react';
+import { AppRoute } from '../../../const';
 import Button from '../../ui/button/button';
 import FeatureCard from '../../ui/feature-card/feature-card';
 import {
@@ -21,7 +22,7 @@ function Features({ features, level }) {
           </FeatureItem>
         ))}
       </FeaturesList>
-      <Button minWidth={260}>Купить</Button>
+      <Button link={AppRoute.ORDER} minWidth={260}>Купить</Button>
     </FeaturesSection>
   );
 }

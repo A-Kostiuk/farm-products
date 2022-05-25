@@ -4,7 +4,7 @@ import { StyleLogo, Text } from './style';
 
 function Logo() {
   return (
-    <StyleLogo href='#'>
+    <StyleLogo to='/'>
       <LogoImage />
       <Text>Фермерские продукты</Text>
     </StyleLogo>
