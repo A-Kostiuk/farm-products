@@ -9,7 +9,7 @@ export const AboutSection = styled.section`
 export const ContentWrapper = styled.div`
   position: relative;
   overflow: hidden;
-  max-width: ${(props) => props.theme.pageWidth};
+  width: ${(props) => props.theme.pageWidth};
   padding: 183px ${(props) => props.theme.pagePadding};
   margin: 0 auto;
   min-height: 600px;

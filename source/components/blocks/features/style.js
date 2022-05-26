@@ -3,7 +3,7 @@ import { Li, Ul } from '../../styled';
 import Title from '../../ui/title/title';
 
 export const FeaturesSection = styled.section`
-  max-width: ${(props) => props.theme.pageWidth};
+  width: ${(props) => props.theme.pageWidth};
   margin: 0 auto;
   padding: 100px ${(props) => props.theme.pagePadding};
   display: flex;

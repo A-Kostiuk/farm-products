@@ -1,14 +1,12 @@
 const path = require('path');
-const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
+  entry: './source/index.js',
   output: {
-    path: path.resolve(__dirname, './docs'), // путь к каталогу выходных файлов - папка public
-    publicPath: '/docs/',
+    path: path.resolve(__dirname, './build'), // путь к каталогу выходных файлов - папка public
     filename: 'main.bundle.js', // название создаваемого файла
   },
-  entry: './source/index.js',
   module: {
     rules: [
       {
@@ -49,7 +47,7 @@ module.exports = {
   devtool: 'source-map',
   devServer: {
     static: {
-      directory: path.join(__dirname, '/docs/'),
+      directory: path.join(__dirname, '/build/'),
     },
     historyApiFallback: true,
     open: true,
